@@ -327,6 +327,10 @@ em{
   .about_div ul{
     font-size: 12px;
   }
+ .about_div h3{
+  text-align:center;
+  }
+  
 .interests_div h3{
 text-align: center;
 font-size: 25px;
