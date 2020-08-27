@@ -1,0 +1,404 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* about section */
+html{
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+#about{
+  width: 100vw;
+  height: auto;
+  color: white;
+  background-color: black;
+
+} 
+.about_div{
+  height: auto;
+}
+
+.about_div h2{
+  margin-left: 25px;
+  color: rgb(9, 255, 255);
+  margin-top: 45px;
+  background-color: rgb(90, 117, 117);
+  font-weight: 800;
+  
+}
+
+.about_div h3{
+  font-weight: 900;
+  text-indent: 35px;
+  letter-spacing: 5px;
+  padding-top: 15px;
+ 
+}
+
+.about_div ul{
+  margin-left: 25px;
+  list-style: none;
+  font-stretch: ultra-expanded;
+  text-indent: 10px;
+  line-height: 2rem;
+  letter-spacing: 2px;
+}
+.about_div .fa-greater-than{
+  color: aqua;
+}
+blockquote{
+  padding: 0px 25px 0px 25px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-style: oblique;
+}
+.about_me{
+  font-size: 15px;
+}
+.highlight{
+  letter-spacing: 2px;  
+  font-weight: 800;
+  color: chartreuse ;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 1s;
+animation-delay: 2s;
+/* animation-iteration-count: 5; */
+}
+#carouselExampleFade{
+  width: 50%;
+  /* height:10%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+
+
+
+}
+.cat{
+  /* width: 100vw; */
+  width: 40%;
+  /* height:10%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: .2s;
+}
+.cat:hover{
+  transform: scale(.7);
+}
+
+#santosh{
+  color: crimson;
+
+}
+/* About section End */
+
+
+
+
+/* Skills Section */
+#skills{
+  margin-top: -19px;
+  
+}
+.skills_div{
+  color: white;
+  width: 100vw;
+  /* height: ; */
+    padding-top: 30px;
+  background-color: black;
+  padding-left: 25px;
+  padding-right: 35px;
+}
+.skills_div h3{
+  padding-left: 25px;
+  letter-spacing: 5px;
+  font-weight: 900;
+}
+.progress{
+  background-color: black;
+  margin: 10px;
+ 
+}
+
+.progress .progress-bar{
+color: rgb(17, 0, 255);
+  background-color: rgb(0, 255, 13);
+}
+.percent_align{
+  display: flex;
+  font-weight: 900;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 5px;
+  color: rgb(255, 0, 157);
+}
+.percent_align #left{
+  width: 90%;
+}
+
+/* Skilss section End */
+
+/* intersets section start  */
+
+#intersets{
+  background-color: black;
+  width: 100vw;
+  margin-top: -10px;
+  padding-top: 5px;
+  color: white;
+  
+  padding-bottom: 55px
+}
+.interests_div h3{
+  text-indent: 35px;
+ letter-spacing: 5px;
+ font-weight: 900;
+ padding: 25px;
+}
+
+.fa-headphones{
+  color: lightpink;
+  font-size: 3rem;
+}
+.fa-plane{
+color: orange;
+font-size: 3rem;
+}
+.fa-tree{
+  color: green;
+  font-size: 3rem;
+
+}
+.interests_items{
+  display: flex;
+  padding-left:65px;
+  padding-top: 35px;;
+}
+.interests_items_name{
+  letter-spacing: 5px;
+  padding-left: 35px;
+  font-weight: 900;
+  padding-top: 9px;
+  font-size: 17px;
+}
+
+
+
+/* intersets section end */
+
+/* resume section start  */
+
+#resume{
+  padding-top: 28px;
+  margin-top: -18px;
+  width: 100vw;
+  /* height: 100vw; */
+  background-color: rgb(0, 0, 0);
+  color: wheat;
+}
+.resume_div{
+width: 100vw;
+text-indent: 20px;
+
+}
+.resume_div h2{
+  text-indent: 55px;
+ letter-spacing: 5px; 
+ /* padding-bottom: 15px; */
+}
+.resume_div h3{
+  padding-top: 25px;
+  padding-left: 25px;
+  color: rgb(0, 238, 255);
+}
+.resume_div .p1{
+  padding: 35px 25px 25px 25px;
+  letter-spacing: 2px;
+  
+  word-spacing: 5px;
+}
+
+.fa-circle{
+  color: rgb(0, 255, 21);
+  padding-right: 20px;
+}
+.resume_div .p2{
+  padding-top: 10px;
+  color: rgb(0, 255, 22);
+  font-weight: 500;
+  font-size: 20px;
+}
+.resume_div .p3{
+  padding-left: 95px;
+}
+.resume_div .p4{
+  padding-left: 95px;
+  font-weight: 400;
+}
+
+.resume_div .p5{
+  /* color: aliceblu e; */
+  padding-left: 90px;
+  letter-spacing: 2px
+}
+
+.resume_div ul li{
+  color: wheat;
+  line-height: 25px;
+  padding: 0px 0px 0px 5px;
+ margin-left: 55px;
+  list-style: square;
+}
+.internship li{
+  color: aqua;
+}
+/* resume section end  */
+
+
+
+#contact{
+
+width: 100vw;
+height: auto;
+background-color: black;
+}
+.contact_div_h3{
+  color:  white;
+  text-align: center;
+}
+.contact_div_p{
+  color:  white;
+  text-align: center;
+}
+.social_links {
+  color: aqua;
+  left: 50%;
+  text-align: center;
+}
+.social_links i{
+  padding: 15px;
+  background-color:transparent;
+  color: springgreen;
+}
+.social_links i:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  color: rgb(255, 94, 0);
+}
+/* contact section start */
+#contact{
+  margin-top: -17px;
+  padding-top: 55px;
+}
+.contact_div_p{
+  color: deepskyblue;
+}
+
+.contact_div_h3{
+  color: darkorange;
+}
+em{
+  color: aquamarine;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+/* contact section end */
+
+
+
+/* foooter section start */
+
+
+/* foooter section end */
+
+
+
+
+
+/* Media queries */
+
+ 
+@media(max-width:777px){
+  .about_div ul{
+    font-size: 12px;
+  }
+.interests_div h3{
+text-align: center;
+font-size: 25px;
+}
+.skills_div h3{
+text-align: center;
+}
+.resume_div h2{
+font-size: 25px;
+text-align: center;
+padding-right: 45px;
+}
+.interests_items_name{
+font-size: 15px;
+text-align: center;
+text-justify: auto;
+}
+  blockquote{
+    padding: 0px 25px 0px 25px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-style: oblique;
+    font-size: 10.5px;
+
+  }
+  .resume_div{
+    width: 100vw;
+    text-indent: 8px;
+    display: inline-block;
+    } 
+  .resume_div .p1{
+    font-size: 11px;
+  }
+  .resume_div .p2{
+    /* letter-spacing: 1px; */
+    /* word-spacing: 1px; */
+    font-size: 14px;
+     }
+     .resume_div .p3{
+      font-size: 13px;
+    }
+    .resume_div .p4{
+      font-size: 13px;
+    }
+    .resume_div .p5{
+      font-size: 13px;
+    }
+.about_me li{
+  font-size: 10.5px;
+}
+.about_div h2{
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+
+} 
+
+/* Media queries  End*/
+
+
+/* Animartion text start  */
+
+
+.my-element {
+
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: fadeOut; /* referring directly to the animation's @keyframe declaration */
+animation-duration: 2s;
+animation-delay: 2s;
+animation-iteration-count: 5;
+}
+/* Animartion text End */
+
