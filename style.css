@@ -47,6 +47,10 @@ html{
   line-height: 2rem;
   letter-spacing: 2px;
 }
+
+.fa-smile-wink{
+  color: yellow;
+}
 .about_div .fa-greater-than{
   color: aqua;
 }
