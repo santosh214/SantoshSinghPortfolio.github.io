@@ -47,6 +47,9 @@ html{
   line-height: 2rem;
   letter-spacing: 2px;
 }
+.fa-smile-wink{
+  color: yellow;
+}
 .about_div .fa-greater-than{
   color: aqua;
 }
@@ -130,14 +133,14 @@ animation-delay: 2s;
 
 .progress .progress-bar{
 color: rgb(17, 0, 255);
-  background-color: rgb(0, 255, 13);
+  background-color: rgb(6, 219, 155);
 }
 .percent_align{
   display: flex;
   font-weight: 900;
   font-family: 'Courier New', Courier, monospace;
   letter-spacing: 5px;
-  color: rgb(255, 0, 157);
+  color: rgb(255, 255, 255);
 }
 .percent_align #left{
   width: 90%;
