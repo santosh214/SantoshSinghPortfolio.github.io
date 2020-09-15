@@ -342,11 +342,20 @@ em{
 /* contact section end */
 
 
+/* counter section start */
 
-/* foooter section start */
+#counter{
+  font-weight: 900;
+  font-size: x-large;
+  text-align: center;
+background-color: black;
+  color: rgb(23, 205, 211);
+}
+.acount{
+  color: rgb(255, 31, 61);
+}
+/* counter section end */
 
-
-/* foooter section end */
 
 
 
